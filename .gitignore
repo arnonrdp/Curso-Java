@@ -1,0 +1,8 @@
+# Eclipse & Maven
+bin/
+
+# VisualStudioCode
+.idea
+.vscode/*
+.vscode/settings.json
+.DS_Store
