@@ -1,0 +1,38 @@
+package devdojo.maratonajava.javacore.g.associacao.domain;
+
+public class Jogador {
+    private String nome;
+    private Time time;
+
+    public void imprime() {
+        System.out.println(this.nome);
+        if (time != null) {
+            System.out.println(this.getTime());
+        }
+    }
+
+    public Jogador(String nome) {
+        this.nome = nome;
+    }
+
+    public Jogador(Time time) {
+        this.time = time;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Time getTime() {
+        return time;
+    }
+
+    public void setTime(Time time) {
+        this.time = time;
+    }
+
+}
