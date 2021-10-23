@@ -29,7 +29,7 @@ public class SerializacaoTest {
     private static void deserializar() {
         Path path = Paths.get("aluno.ser");
         try (ObjectInputStream ois = new ObjectInputStream(Files.newInputStream(path))) {
-            Aluno aluno = (Aluno) ois.readObject();
+            ois.readObject();
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
