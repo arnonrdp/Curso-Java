@@ -1,4 +1,4 @@
-package devdojo.maratonajava.javacore.zz.a.classesinternas.test;
+package devdojo.maratonajava.javacore.za.classesinternas.test;
 
 
 public class OuterClassesTest {
